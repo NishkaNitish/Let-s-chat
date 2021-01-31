@@ -1,0 +1,4 @@
+function adduser(){User_name=document.getElementById("User_name").value;
+localStorage.setItem("User_name",User_name);
+window.location="let's chat_room.html";
+}
